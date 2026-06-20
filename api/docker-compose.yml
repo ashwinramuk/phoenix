@@ -1,0 +1,35 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: phoenix
+      POSTGRES_PASSWORD: phoenix
+      POSTGRES_DB: phoenix
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U phoenix"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build: .
+    environment:
+      NODE_ENV: production
+      PORT: 4000
+      DATABASE_URL: postgresql://phoenix:phoenix@postgres:5432/phoenix
+      JWT_SECRET: dev-compose-secret-change-me-in-prod
+      CORS_ORIGINS: http://localhost:3000
+    ports:
+      - "4000:4000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    # Apply schema + seed, then start. (Seeding here is for the demo only.)
+    command: sh -c "node dist/db/migrate.js && node dist/db/seed.js && node dist/server.js"
+
+volumes:
+  pgdata:

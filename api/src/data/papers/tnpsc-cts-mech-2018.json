@@ -1,0 +1,2851 @@
+{
+  "id": "tnpsc-cts-mech-2018",
+  "examBody": "TNPSC",
+  "exam": "Combined Technical Services (CTS)",
+  "subject": "Mechanical / Production / Manufacturing Engineering",
+  "level": "Degree Standard",
+  "year": 2018,
+  "bookletCode": "CEMPM/18",
+  "totalQuestions": 200,
+  "totalMarks": 300,
+  "durationMinutes": 180,
+  "negativeMarking": "1/3",
+  "source": "Official TNPSC question booklet (scanned). Answer key transcribed from marks in the source scan; verify against the official tentative answer key.",
+  "subjects": {
+    "Manufacturing": 25,
+    "Thermodynamics": 21,
+    "Fluid Mechanics": 18,
+    "Industrial Engineering": 17,
+    "Material Science": 15,
+    "Machine Design": 13,
+    "Theory of Machines": 12,
+    "Metrology": 11,
+    "Heat Transfer": 9,
+    "Strength of Materials": 7,
+    "Engineering Mechanics": 6,
+    "Operations Research": 6,
+    "Fluid Machinery": 4,
+    "Instrumentation": 4,
+    "FEM": 4,
+    "Refrigeration & Air Conditioning": 3,
+    "Statistics": 3,
+    "CIM": 3,
+    "CNC": 2,
+    "Robotics": 2,
+    "Mass Transfer": 2,
+    "Material Testing": 2,
+    "Heat & Mass Transfer": 1,
+    "Quality Management": 1,
+    "Automation": 1,
+    "CAD/CAM": 1,
+    "CNC / CAM": 1,
+    "CAD": 1,
+    "IC Engines": 1,
+    "CNC / DNC": 1,
+    "CAPP": 1,
+    "FEM / Strength of Materials": 1,
+    "Group Technology": 1
+  },
+  "questions": [
+    {
+      "number": 1,
+      "subject": "Engineering Mechanics",
+      "topic": "Engineering Mechanics",
+      "question": "The energy possessed by a body, for doing work by virtue of its position, is called",
+      "hasFigure": false,
+      "options": {
+        "A": "potential energy",
+        "B": "kinetic energy",
+        "C": "electrical energy",
+        "D": "chemical energy"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 2,
+      "subject": "Theory of Machines",
+      "topic": "Theory of Machines — Gyroscope",
+      "question": "The engine of an aeroplane rotates in clockwise direction when seen from the tail end and the aeroplane takes a turn to the left. The effect of the gyroscopic couple on the aeroplane will be",
+      "hasFigure": false,
+      "options": {
+        "A": "to raise the nose and dip the tail",
+        "B": "to dip the nose and raise the tail",
+        "C": "to raise the nose and tail",
+        "D": "to dip the nose and tail"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 3,
+      "subject": "Theory of Machines",
+      "topic": "Theory of Machines — Balancing",
+      "question": "In a locomotive, the ratio of the connecting rod length to the crank radius is kept very large in order to",
+      "hasFigure": false,
+      "options": {
+        "A": "minimise the effect of primary forces",
+        "B": "minimise the effect of secondary forces",
+        "C": "have perfect balancing",
+        "D": "start the locomotive quickly"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 4,
+      "subject": "Engineering Mechanics",
+      "topic": "Engineering Mechanics — Dynamics",
+      "question": "When a body of moment of inertia (I) is rotated about that axis with an angular velocity ω, then the K.E. of rotation is",
+      "hasFigure": false,
+      "options": {
+        "A": "0.5 Iω",
+        "B": "Iω",
+        "C": "0.5 Iω²",
+        "D": "Iω²"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 5,
+      "subject": "Theory of Machines",
+      "topic": "Theory of Machines — Instantaneous centre",
+      "question": "Number of instantaneous centres for the mechanism will be",
+      "hasFigure": true,
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "14",
+        "D": "15"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 6,
+      "subject": "Theory of Machines",
+      "topic": "Theory of Machines — Mechanisms",
+      "question": "Which of the following mechanism is made up of turning pairs?",
+      "hasFigure": false,
+      "options": {
+        "A": "Scott-Russell mechanism",
+        "B": "Peaucellier mechanism",
+        "C": "Watt mechanism",
+        "D": "Pantograph"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 7,
+      "subject": "Theory of Machines",
+      "topic": "Theory of Machines — Torsional vibration",
+      "question": "Three rotors connected by a shaft, when subjected to torsional vibration, will have",
+      "hasFigure": false,
+      "options": {
+        "A": "no node",
+        "B": "one node",
+        "C": "two nodes",
+        "D": "three nodes"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 8,
+      "subject": "Theory of Machines",
+      "topic": "Theory of Machines — Transverse vibration",
+      "question": "A shaft of length 0.75 m, supported freely at its ends, is carrying a mass 90 kg at 0.25 m from one end. Find the fundamental frequency of transverse vibration. Take E = 200 GPa and shaft diameter 0.05 m.",
+      "hasFigure": false,
+      "options": {
+        "A": "84.95 Hz",
+        "B": "84.85 Hz",
+        "C": "48.95 Hz",
+        "D": "49.85 Hz"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 9,
+      "subject": "Strength of Materials",
+      "topic": "Strength of Materials",
+      "question": "Lateral strain (e') can be expressed as",
+      "hasFigure": false,
+      "options": {
+        "A": "δl / l",
+        "B": "l / δl",
+        "C": "γe",
+        "D": "−γe"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 10,
+      "subject": "Strength of Materials",
+      "topic": "Strength of Materials",
+      "question": "The reaction at the support of a beam with fixed end is referred to as",
+      "hasFigure": false,
+      "options": {
+        "A": "fixed end moment",
+        "B": "fixed end couple",
+        "C": "floating end moment",
+        "D": "floating end couple"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 11,
+      "subject": "Fluid Mechanics",
+      "topic": "Fluid Mechanics — Boundary layer",
+      "question": "Which of the following is the condition for detached flow?",
+      "hasFigure": false,
+      "options": {
+        "A": "(∂u/∂y) at y=0 is = 0",
+        "B": "(∂u/∂y) at y=0 is > 0",
+        "C": "(∂u/∂y) at y=0 is < 0",
+        "D": "(∂u/∂y) at y=0 is = ∞"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 12,
+      "subject": "Strength of Materials",
+      "topic": "Strength of Materials",
+      "question": "σ ∝ e. This rule is known as",
+      "hasFigure": false,
+      "options": {
+        "A": "Castigliano's theorem",
+        "B": "Young's theorem",
+        "C": "Hooke's law",
+        "D": "Reynold's law"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 13,
+      "subject": "Strength of Materials",
+      "topic": "Strength of Materials — Columns",
+      "question": "The equivalent length of a column supported firmly at both ends is",
+      "hasFigure": false,
+      "options": {
+        "A": "2l",
+        "B": "0.7 l",
+        "C": "l",
+        "D": "0.5 l"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 14,
+      "subject": "Strength of Materials",
+      "topic": "Strength of Materials — Torsion",
+      "question": "The value of J in equation T/J = S/y = Gθ/l for a circular shaft of diameter d is",
+      "hasFigure": false,
+      "options": {
+        "A": "πd⁴/32",
+        "B": "πd⁴/64",
+        "C": "πd⁴/16",
+        "D": "πd³/32"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 15,
+      "subject": "Machine Design",
+      "topic": "Machine Design — Threads",
+      "question": "For applications involving high stresses in one direction only, the following type of thread will be best suited",
+      "hasFigure": false,
+      "options": {
+        "A": "ISO metric thread",
+        "B": "acme thread",
+        "C": "square thread",
+        "D": "buttress thread"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 16,
+      "subject": "Machine Design",
+      "topic": "Machine Design — Bearings",
+      "question": "The rated life of a bearing varies",
+      "hasFigure": false,
+      "options": {
+        "A": "directly as load",
+        "B": "inversely as square of load",
+        "C": "inversely as cube of load",
+        "D": "inversely as fourth power of load"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 17,
+      "subject": "Machine Design",
+      "topic": "Machine Design — Couplings",
+      "question": "The holes in the flange coupling for coupling the two flanges together by bolts are reamed because it permits",
+      "hasFigure": false,
+      "options": {
+        "A": "equal sharing of load by bolts",
+        "B": "avoidance of stress concentration",
+        "C": "avoidance of any injury during dismantling",
+        "D": "less wear, tear and vibration"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 18,
+      "subject": "Machine Design",
+      "topic": "Machine Design — Chain drive",
+      "question": "It is usually preferable in chain drive to use",
+      "hasFigure": false,
+      "options": {
+        "A": "even number of teeth on sprocket",
+        "B": "odd number of teeth on sprocket",
+        "C": "either even or odd, but certain minimum number",
+        "D": "maximum number of teeth permissible on sprocket"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 19,
+      "subject": "Fluid Mechanics",
+      "topic": "Fluid Mechanics — Pressure",
+      "question": "An oil of specific gravity 0.9 is contained in a vessel. At a point the height of oil is 40 m. Find the corresponding height of water at the point.",
+      "hasFigure": false,
+      "options": {
+        "A": "900 m",
+        "B": "36 m",
+        "C": "10.33 m",
+        "D": "18 m"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 20,
+      "subject": "Fluid Mechanics",
+      "topic": "Fluid Mechanics — Buoyancy",
+      "question": "A stone weighs 392.4 N in air and 196.2 N in water. Find the weight of water displaced.",
+      "hasFigure": false,
+      "options": {
+        "A": "392.4 N",
+        "B": "196.2 N",
+        "C": "3.924 N",
+        "D": "1.962 N"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 21,
+      "subject": "Fluid Mechanics",
+      "topic": "Fluid Mechanics — Viscosity",
+      "question": "Newton's law of viscosity is given by the relation",
+      "hasFigure": false,
+      "options": {
+        "A": "τ = μ² du/dy",
+        "B": "τ = μ du/dy",
+        "C": "τ = dy/du",
+        "D": "τ = μ² dy/du"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 22,
+      "subject": "Fluid Mechanics",
+      "topic": "Fluid Mechanics — Manometry",
+      "question": "If a pipe contains an oil of sp.gr 0.9 and a differential manometer connected at two points A and B shows a difference in mercury level as 15 cm, the difference of pressure at the two points will be",
+      "hasFigure": false,
+      "options": {
+        "A": "1.32435 N/m²",
+        "B": "1905 N/m²",
+        "C": "18688 N/m²",
+        "D": "124587 N/m²"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 23,
+      "subject": "Fluid Mechanics",
+      "topic": "Fluid Mechanics — Stream function",
+      "question": "The velocity components in x and y directions in terms of stream function (ψ) are",
+      "hasFigure": false,
+      "options": {
+        "A": "u = ∂ψ/∂x, v = ∂ψ/∂y",
+        "B": "u = −∂ψ/∂x, v = ∂ψ/∂y",
+        "C": "u = ∂ψ/∂y, v = −∂ψ/∂x",
+        "D": "u = −∂ψ/∂y, v = ∂ψ/∂x"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 24,
+      "subject": "Fluid Mechanics",
+      "topic": "Fluid Mechanics — Head loss",
+      "question": "In pipe flow, loss of head due to sudden contraction is given as",
+      "hasFigure": false,
+      "options": {
+        "A": "(V₂²/g)(1/Cc − 1)²",
+        "B": "(V₂²/2g)(1/Cc − 1)²",
+        "C": "(V₂²/g)(1/Cc − 1)",
+        "D": "(V₂²/2g)(1/Cc − 1)"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 25,
+      "subject": "Fluid Mechanics",
+      "topic": "Fluid Mechanics — Laminar flow",
+      "question": "The velocity distribution across a section of a circular pipe having viscous flow is given by",
+      "hasFigure": false,
+      "options": {
+        "A": "u = U_max [1 − (r/R)²]",
+        "B": "u = U_max [R² − r²]",
+        "C": "u = U_max [1 − (r/R)]",
+        "D": "u = U_max [1 + (r/R)]²"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 26,
+      "subject": "Fluid Machinery",
+      "topic": "Fluid Machinery — Turbines",
+      "question": "The specific speed of a turbine is expressed as",
+      "hasFigure": false,
+      "options": {
+        "A": "N√P / H",
+        "B": "N√P / H^(3/4)",
+        "C": "N√P / H^(5/4)",
+        "D": "N√P / H^(1/2)"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 27,
+      "subject": "Fluid Machinery",
+      "topic": "Fluid Machinery — Kaplan turbine",
+      "question": "The discharge through a Kaplan turbine is given by",
+      "hasFigure": false,
+      "options": {
+        "A": "Q = π D B Vf",
+        "B": "Q = (π/4)(Db² − Dh²) × Vf",
+        "C": "Q = (π/4) d² × √(2gH)",
+        "D": "Q = 0.9 π D B Vf"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 28,
+      "subject": "Fluid Machinery",
+      "topic": "Fluid Machinery — Turbines",
+      "question": "If the head on the turbine is more than 300 m, the type of turbine used should be",
+      "hasFigure": false,
+      "options": {
+        "A": "Kaplan",
+        "B": "Francis",
+        "C": "Pelton wheel",
+        "D": "Propeller"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 29,
+      "subject": "Fluid Machinery",
+      "topic": "Fluid Machinery — Turbines",
+      "question": "Hydraulic efficiency of a turbine is",
+      "hasFigure": false,
+      "options": {
+        "A": "power available at the inlet of turbine to power given by water to the turbine",
+        "B": "power of the shaft of the turbine to power given by water to the turbine",
+        "C": "power at the shaft of the turbine to the power of inlet of the turbine",
+        "D": "power at the shaft of the turbine to power delivered by water"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 30,
+      "subject": "Thermodynamics",
+      "topic": "Thermodynamics",
+      "question": "The temperature at which the volume of gas becomes zero is called",
+      "hasFigure": false,
+      "options": {
+        "A": "absolute scale of temperature",
+        "B": "absolute zero temperature",
+        "C": "absolute temperature",
+        "D": "dew point temperature"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 31,
+      "subject": "Thermodynamics",
+      "topic": "Thermodynamics",
+      "question": "The value of 'n' index for constant volume process is equal to",
+      "hasFigure": false,
+      "options": {
+        "A": "n = 0",
+        "B": "n = 1",
+        "C": "n = γ",
+        "D": "n = ∞"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 32,
+      "subject": "Thermodynamics",
+      "topic": "Thermodynamics",
+      "question": "What are the properties of a thermodynamic system whose value for the entire system is equal to the sum of their values for individual parts of the system?",
+      "hasFigure": false,
+      "options": {
+        "A": "Thermodynamic properties",
+        "B": "Extensive properties",
+        "C": "Intensive properties",
+        "D": "Specific properties"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 33,
+      "subject": "Thermodynamics",
+      "topic": "Thermodynamics",
+      "question": "In a free expansion of a gas between two equilibrium states, work transfer involved",
+      "hasFigure": false,
+      "options": {
+        "A": "can be calculated by joining the two states on p-v coordinates by any path and estimating the area below",
+        "B": "can be calculated by joining the two states by a quasi-static path and then finding the area below",
+        "C": "is zero",
+        "D": "is equal to heat generated by friction during expansion"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 34,
+      "subject": "Thermodynamics",
+      "topic": "Thermodynamics",
+      "question": "Carnot cycle efficiency is maximum when",
+      "hasFigure": false,
+      "options": {
+        "A": "initial temperature is 0°K",
+        "B": "final temperature is 0°K",
+        "C": "difference between initial and final temperature is 0°K",
+        "D": "final temperature is 0°C"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 35,
+      "subject": "Thermodynamics",
+      "topic": "Thermodynamics",
+      "question": "The internal energy of a substance depends on",
+      "hasFigure": false,
+      "options": {
+        "A": "temperature",
+        "B": "pressure",
+        "C": "entropy",
+        "D": "enthalpy"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 36,
+      "subject": "Thermodynamics",
+      "topic": "Thermodynamics — Availability",
+      "question": "Unavailable energy is the portion of energy that",
+      "hasFigure": false,
+      "options": {
+        "A": "cannot be converted into work by a turbine",
+        "B": "cannot be converted into work even by a reversible heat engine",
+        "C": "cannot be converted into work by a Rankine engine",
+        "D": "cannot be converted into work by a pump"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 37,
+      "subject": "Heat Transfer",
+      "topic": "Heat Transfer — Conduction",
+      "question": "For a given heat flow and for the same thickness, the temperature drop across the material will be maximum for",
+      "hasFigure": false,
+      "options": {
+        "A": "copper",
+        "B": "steel",
+        "C": "glass-wool",
+        "D": "refractory brick"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 38,
+      "subject": "Thermodynamics",
+      "topic": "Thermodynamics",
+      "question": "Work done in a free expansion process is",
+      "hasFigure": false,
+      "options": {
+        "A": "positive",
+        "B": "negative",
+        "C": "zero",
+        "D": "maximum or minimum"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 39,
+      "subject": "Heat Transfer",
+      "topic": "Heat Transfer — Hydraulic diameter",
+      "question": "For non-circular ducts, the hydraulic diameter is defined as (A = sectional area of the duct; P = wetted perimeter of the duct)",
+      "hasFigure": false,
+      "options": {
+        "A": "Dh = 4A/P",
+        "B": "Dh = 2A/P",
+        "C": "Dh = 3A/2P",
+        "D": "Dh = A/4P"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 40,
+      "subject": "Heat Transfer",
+      "topic": "Heat Transfer — Critical radius",
+      "question": "The critical radius of insulation for a spherical shell is",
+      "hasFigure": false,
+      "options": {
+        "A": "rc = k/h",
+        "B": "rc = h/2k",
+        "C": "rc = 2k/h",
+        "D": "rc = 2k/3h"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 41,
+      "subject": "Heat Transfer",
+      "topic": "Heat Transfer — Prandtl number",
+      "question": "The velocity and thermal boundary layers coincide, and the non-dimensional velocity and temperature profiles are identical for steady, incompressible, laminar flow over a flat plate when",
+      "hasFigure": false,
+      "options": {
+        "A": "Pr = 1",
+        "B": "Pr < 1",
+        "C": "Pr > 2",
+        "D": "Pr ≥ 2.5"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 42,
+      "subject": "Heat Transfer",
+      "topic": "Heat Transfer — Lumped capacitance",
+      "question": "For simple shapes such as plates, cylinders, spheres and cubes, the lumped heat capacity approach can be used if",
+      "hasFigure": false,
+      "options": {
+        "A": "Bi < 0.1",
+        "B": "Bi = 1.0",
+        "C": "Bi > 1.0",
+        "D": "Bi > 0.1"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 43,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Diffusion",
+      "question": "The diffusion coefficient of carbon through iron during a hardening process",
+      "hasFigure": false,
+      "options": {
+        "A": "decreases with temperature",
+        "B": "remains constant as temperature increases",
+        "C": "remains constant as pressure increases",
+        "D": "increases with temperature"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 44,
+      "subject": "Heat & Mass Transfer",
+      "topic": "Heat & Mass Transfer",
+      "question": "The driving potential in mass transfer process is",
+      "hasFigure": false,
+      "options": {
+        "A": "concentration gradient",
+        "B": "temperature gradient",
+        "C": "pressure gradient",
+        "D": "velocity gradient"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 45,
+      "subject": "Refrigeration & Air Conditioning",
+      "topic": "Refrigeration & Air Conditioning",
+      "question": "Air refrigeration cycle is used in",
+      "hasFigure": false,
+      "options": {
+        "A": "commercial refrigerator",
+        "B": "domestic refrigerator",
+        "C": "gas liquefaction",
+        "D": "air-conditioning"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 46,
+      "subject": "Refrigeration & Air Conditioning",
+      "topic": "Refrigeration & Air Conditioning",
+      "question": "In milk chilling plants, the secondary refrigerant used usually is",
+      "hasFigure": false,
+      "options": {
+        "A": "ammonia solution",
+        "B": "sodium silicate",
+        "C": "glycol",
+        "D": "brine"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 47,
+      "subject": "Thermodynamics",
+      "topic": "Thermodynamics — Power cycles",
+      "question": "Work ratio is the ratio of",
+      "hasFigure": false,
+      "options": {
+        "A": "net work / turbine work",
+        "B": "turbine work / compressor work",
+        "C": "net work / compressor work",
+        "D": "compressor work / net work"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 48,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Non-traditional machining",
+      "question": "Reverse of electroplating process is",
+      "hasFigure": false,
+      "options": {
+        "A": "Electro Discharge Machining (EDM)",
+        "B": "Electro Chemical Machining (ECM)",
+        "C": "Laser Beam Machining (LBM)",
+        "D": "Abrasive Jet Machining (AJM)"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 49,
+      "subject": "Material Science",
+      "topic": "Material Science",
+      "question": "The elastic stress-strain behaviour of rubber is",
+      "hasFigure": false,
+      "options": {
+        "A": "linear",
+        "B": "non-linear",
+        "C": "plastic",
+        "D": "normal curve"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 50,
+      "subject": "Material Science",
+      "topic": "Material Science",
+      "question": "Allotropic metal",
+      "hasFigure": false,
+      "options": {
+        "A": "exists in more than one type of lattice structure depending upon temperature",
+        "B": "has equal stresses in all directions",
+        "C": "has only one lattice structure at all temperatures",
+        "D": "gives equal strain in all directions"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 51,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Heat treatment",
+      "question": "The process used for relieving internal stress which is previously set up in the metal work and for increasing the machinability of steel is",
+      "hasFigure": false,
+      "options": {
+        "A": "normalising",
+        "B": "annealing",
+        "C": "cyaniding",
+        "D": "spheroidising"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 52,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Surface hardening",
+      "question": "Steel can be hardened quickly by the process of",
+      "hasFigure": false,
+      "options": {
+        "A": "nitriding",
+        "B": "cyaniding",
+        "C": "carburising",
+        "D": "induction hardening"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 53,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Surface hardening",
+      "question": "Induction hardening is the process of",
+      "hasFigure": false,
+      "options": {
+        "A": "hardening surface of work piece to obtain hard and wear resistant surface",
+        "B": "heating and cooling rapidly",
+        "C": "increasing hardness throughout",
+        "D": "inducing hardness by continuous process"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 54,
+      "subject": "Material Science",
+      "topic": "Material Science — Phase rule",
+      "question": "Gibb's phase rule is given by the expression F which is equal to (F = no. of degrees of freedom, C = no. of compounds, P = no. of phases)",
+      "hasFigure": false,
+      "options": {
+        "A": "C + P",
+        "B": "C − P − 2",
+        "C": "C + P − 2",
+        "D": "C − P + 2"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 55,
+      "subject": "Material Science",
+      "topic": "Material Science",
+      "question": "Beryllium is used chiefly as an alloy addition to copper for producing",
+      "hasFigure": false,
+      "options": {
+        "A": "precipitation-hardenable alloy",
+        "B": "corrosion resistant alloy",
+        "C": "high-strength alloy",
+        "D": "non-magnetic and non-sparking alloy"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 56,
+      "subject": "Material Science",
+      "topic": "Material Science — Ductility",
+      "question": "Which of the following metals can be easily drawn into wire?",
+      "hasFigure": false,
+      "options": {
+        "A": "tin",
+        "B": "copper",
+        "C": "lead",
+        "D": "zinc"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 57,
+      "subject": "Material Science",
+      "topic": "Material Science — Magnetism",
+      "question": "In case of ferromagnetic materials, the spin moments associated with two sets of atoms are aligned",
+      "hasFigure": false,
+      "options": {
+        "A": "parallel to each other",
+        "B": "antiparallel to each other",
+        "C": "antiparallel but of unequal magnitude",
+        "D": "randomly"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 58,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Casting",
+      "question": "Core prints are used to",
+      "hasFigure": false,
+      "options": {
+        "A": "support and locate the core in the mould",
+        "B": "fabricate core",
+        "C": "facilitate easy removal of the core",
+        "D": "give different shapes to the core"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 59,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Pattern allowances",
+      "question": "Surfaces to be left unfinished are to be painted",
+      "hasFigure": false,
+      "options": {
+        "A": "red",
+        "B": "blue",
+        "C": "black",
+        "D": "yellow"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 60,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Forming",
+      "question": "A process employed to produce seamless tubing is known as",
+      "hasFigure": false,
+      "options": {
+        "A": "hot spinning",
+        "B": "piercing",
+        "C": "extrusion",
+        "D": "rolling"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 61,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Forming",
+      "question": "Rotary swaging is the operation",
+      "hasFigure": false,
+      "options": {
+        "A": "employed to expand a tubular or cylindrical part",
+        "B": "to reduce the cross-sectional area of rods and tubes",
+        "C": "in which the edges of sheet are turned over to provide stiffness and a smooth edge",
+        "D": "which causes a steadily applied pressure on work piece instead of impact force"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 62,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Grinding",
+      "question": "The Indian Standard Marking system for a grinding wheel is read as WA46K5V17. The alphabet 'K' denotes",
+      "hasFigure": false,
+      "options": {
+        "A": "bond type",
+        "B": "grain size",
+        "C": "abrasive",
+        "D": "grade"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 63,
+      "subject": "CNC",
+      "topic": "CNC — Part programming",
+      "question": "In NC part programming, F-code indicates",
+      "hasFigure": false,
+      "options": {
+        "A": "the type of motion or action to be carried out",
+        "B": "the spindle speed at which the spindle rotates",
+        "C": "the type of tool",
+        "D": "the rate at which the spindle moves along a programming axis"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 64,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Non-traditional machining",
+      "question": "Ultrasonic Machining (USM) process is mainly used for machining",
+      "hasFigure": false,
+      "options": {
+        "A": "plastic materials",
+        "B": "ductile materials",
+        "C": "hard and brittle materials",
+        "D": "semi conductive materials"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 65,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Sheet metal",
+      "question": "It is required to punch a hole of diameter 10 mm on a sheet of thickness 3 mm. The shear strength of the work material is 420 MPa. The required punch force is",
+      "hasFigure": false,
+      "options": {
+        "A": "19.78 kN",
+        "B": "39.56 kN",
+        "C": "98.9 kN",
+        "D": "359.6 kN"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 66,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Casting",
+      "question": "In a green sand molding process, uniform ramming leads to",
+      "hasFigure": false,
+      "options": {
+        "A": "less chance of porosity",
+        "B": "uniform flow of molten metal into mold cavity",
+        "C": "greater dimensional stability of the casting",
+        "D": "less sand expansion type of casting defect"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 67,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Welding",
+      "question": "Which of the following welding process does not use consumable electrodes?",
+      "hasFigure": false,
+      "options": {
+        "A": "gas metal arc welding",
+        "B": "gas tungsten arc welding",
+        "C": "submerged arc welding",
+        "D": "flux coated arc welding"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 68,
+      "subject": "Metrology",
+      "topic": "Metrology — Screw threads",
+      "question": "If \"P\" is the pitch of thread and \"θ\" is the semi-angle of thread, then the best size wire for measuring the effective diameter of threads is of diameter",
+      "hasFigure": false,
+      "options": {
+        "A": "(P/2) sec θ",
+        "B": "(P/2) cos θ",
+        "C": "(P/4) sec θ",
+        "D": "P sec θ"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 69,
+      "subject": "Statistics",
+      "topic": "Statistics — Coefficient of variation",
+      "question": "If X̄ and R represent mean value and range respectively, then coefficient of variation in terms of standard deviation σ is defined as",
+      "hasFigure": false,
+      "options": {
+        "A": "σ² × 100",
+        "B": "√σ × 100",
+        "C": "(σ/X̄) × 100",
+        "D": "(σ/R) × 100"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 70,
+      "subject": "Metrology",
+      "topic": "Metrology — Errors",
+      "question": "Which of the following errors are generally distributed in accordance with the Gaussian distribution?",
+      "hasFigure": false,
+      "options": {
+        "A": "controllable errors",
+        "B": "calibration errors",
+        "C": "avoidable errors",
+        "D": "random errors"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 71,
+      "subject": "Metrology",
+      "topic": "Metrology — Gauges",
+      "question": "The type of gauge which has gauging sections combined on one end is",
+      "hasFigure": false,
+      "options": {
+        "A": "combination gauge",
+        "B": "progressive gauge",
+        "C": "limit gauge",
+        "D": "fixed gauge"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 72,
+      "subject": "Metrology",
+      "topic": "Metrology — Instruments",
+      "question": "Which one of the following is the most accurate measuring device/instrument?",
+      "hasFigure": false,
+      "options": {
+        "A": "steel rule",
+        "B": "digital micrometer",
+        "C": "vernier caliper",
+        "D": "laser micrometer"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 73,
+      "subject": "Statistics",
+      "topic": "Statistics",
+      "question": "The value of a set of data at which the greatest number of cases is concentrated is called",
+      "hasFigure": false,
+      "options": {
+        "A": "mean",
+        "B": "median",
+        "C": "standard deviation",
+        "D": "mode"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 74,
+      "subject": "Instrumentation",
+      "topic": "Instrumentation — Thermocouples",
+      "question": "Reference junction compensation in thermocouples can be accomplished through the use of",
+      "hasFigure": false,
+      "options": {
+        "A": "hardware only",
+        "B": "software only",
+        "C": "both hardware and software",
+        "D": "vapour filled thermometer"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 75,
+      "subject": "Statistics",
+      "topic": "Statistics — Normal distribution",
+      "question": "Approximately what area is covered under the normal distribution curve between ±3 standard deviation",
+      "hasFigure": false,
+      "options": {
+        "A": "80%",
+        "B": "88.00%",
+        "C": "99.73%",
+        "D": "68.00%"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 76,
+      "subject": "Quality Management",
+      "topic": "Quality Management — Juran trilogy",
+      "question": "Elements and sequence of Juran's Trilogy with regard to quality are",
+      "hasFigure": false,
+      "options": {
+        "A": "analyse, improve, control",
+        "B": "plan, do, study, act",
+        "C": "plan, control, improve",
+        "D": "measure, analyse, improve, control"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 77,
+      "subject": "Metrology",
+      "topic": "Metrology — Gauges",
+      "question": "An example of an attribute gauge is a",
+      "hasFigure": false,
+      "options": {
+        "A": "plug gauge",
+        "B": "micrometer",
+        "C": "slip gauge",
+        "D": "angle gauge"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 78,
+      "subject": "Metrology",
+      "topic": "Metrology — Surface finish",
+      "question": "The Mercer instrument assesses the surface irregularities through",
+      "hasFigure": false,
+      "options": {
+        "A": "fringe pattern",
+        "B": "air leakage method",
+        "C": "frictional properties",
+        "D": "thermal properties"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 79,
+      "subject": "Metrology",
+      "topic": "Metrology — Form measurement",
+      "question": "The general way of describing cylindricity of a component is by the",
+      "hasFigure": false,
+      "options": {
+        "A": "minimum-zone method",
+        "B": "maximum-zone method",
+        "C": "limited zone method",
+        "D": "cylinder zone method"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 80,
+      "subject": "Automation",
+      "topic": "Automation — Machine vision",
+      "question": "The digitized frame of the image in a machine vision system is referred to as",
+      "hasFigure": false,
+      "options": {
+        "A": "ADC",
+        "B": "Frame buffer",
+        "C": "Vision buffer",
+        "D": "DAC"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 81,
+      "subject": "CIM",
+      "topic": "CIM — Flexible Manufacturing Systems",
+      "question": "Which one of the following is not a division of the Flexible Manufacturing System (FMS) Class?",
+      "hasFigure": false,
+      "options": {
+        "A": "Flexible Manufacturing Module (FMM)",
+        "B": "Flexible Fabrication–Machining–Assembly System (FFMAS)",
+        "C": "Flexible Manufacturing Group (FMG)",
+        "D": "Flexible Manufacturing Technology (FMT)"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 82,
+      "subject": "CAD/CAM",
+      "topic": "CAD/CAM",
+      "question": "CAD/CAM technology was initiated in the",
+      "hasFigure": false,
+      "options": {
+        "A": "Die industry",
+        "B": "Nuclear industry",
+        "C": "Aerospace industry",
+        "D": "Medical industry"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 83,
+      "subject": "Industrial Engineering",
+      "topic": "Industrial Engineering — Plant layout",
+      "question": "In cellular type layout,",
+      "hasFigure": false,
+      "options": {
+        "A": "families of batches and parts that utilize similar machines, labour skills or tooling are grouped together to form cells",
+        "B": "fixed site production is characterized by moving equipment, tools, material and personnel to the production site",
+        "C": "each set of machines is arranged so that only one product is manufactured on each line",
+        "D": "grouping of similar equipment by function to produce variety of products in small volume"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 84,
+      "subject": "Industrial Engineering",
+      "topic": "Industrial Engineering — Lean / Kanban",
+      "question": "Types of Kanban system are",
+      "hasFigure": false,
+      "options": {
+        "A": "process Kanban and ordering Kanban",
+        "B": "stock Kanban and sub-assemblies Kanban",
+        "C": "production-ordering Kanban and the withdrawal Kanban",
+        "D": "product Kanban and machine Kanban"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 85,
+      "subject": "CNC / CAM",
+      "topic": "CNC / CAM",
+      "question": "The APT (Automatically Programmed Tools) language is used in",
+      "hasFigure": false,
+      "options": {
+        "A": "Drafting systems",
+        "B": "NC machines",
+        "C": "Programmable controllers",
+        "D": "Large automation systems"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 86,
+      "subject": "CAD",
+      "topic": "CAD — Transformations",
+      "question": "The translation distances dx, dy is called as",
+      "hasFigure": false,
+      "options": {
+        "A": "translation vector",
+        "B": "shift vector",
+        "C": "both (A) and (B)",
+        "D": "neither translation nor shift but δ"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 87,
+      "subject": "CNC",
+      "topic": "CNC — Macro programming",
+      "question": "MACRO subroutine is defined by the format",
+      "hasFigure": false,
+      "options": {
+        "A": "MACRO = Parameter",
+        "B": "Symbol = MACRO / Parameter",
+        "C": "MACRO / Parameter",
+        "D": "MACRO"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 88,
+      "subject": "Robotics",
+      "topic": "Robotics — Configurations",
+      "question": "Which Robot configuration represents a human arm?",
+      "hasFigure": false,
+      "options": {
+        "A": "Mechanical configuration",
+        "B": "Polar configuration",
+        "C": "Cylindrical configuration",
+        "D": "Jointed arm configuration"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 89,
+      "subject": "Industrial Engineering",
+      "topic": "Industrial Engineering — Standardisation",
+      "question": "Standardisation of products is done to",
+      "hasFigure": false,
+      "options": {
+        "A": "eliminate unnecessary varieties in design",
+        "B": "simplify manufacturing process",
+        "C": "make interchangeable manufacturing",
+        "D": "reduce material cost"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 90,
+      "subject": "FEM",
+      "topic": "FEM — Shape functions",
+      "question": "The shape function N₁ of a linear bar element shown in figure, at node 1, is",
+      "hasFigure": true,
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "0.5",
+        "D": "0.1"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 91,
+      "subject": "Industrial Engineering",
+      "topic": "Industrial Engineering — Process charts",
+      "question": "The process chart symbol used to indicate combined operation-cum-inspection is",
+      "hasFigure": true,
+      "options": {
+        "A": "a square followed by a circle",
+        "B": "a square combined with an arrow",
+        "C": "a circle (with inscribed marking)",
+        "D": "a circle with a line through it"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 92,
+      "subject": "Industrial Engineering",
+      "topic": "Industrial Engineering — Work study",
+      "question": "Which one of the following techniques is used for determining allowances in Time study?",
+      "hasFigure": false,
+      "options": {
+        "A": "performance rating",
+        "B": "work sampling",
+        "C": "linear regression",
+        "D": "acceptance sampling"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 93,
+      "subject": "Industrial Engineering",
+      "topic": "Industrial Engineering — Inventory (EOQ)",
+      "question": "In the basic inventory model, the minimum total yearly inventory cost is calculated by (D = annual demand, Cₒ = ordering cost, Cₕ = inventory carrying cost, P = production rate, d = demand rate)",
+      "hasFigure": false,
+      "options": {
+        "A": "Tmin = √(2DCₒ·Cₕ)",
+        "B": "Tmin = √(2DCₒ·Cₕ(1 − d/p))",
+        "C": "Tmin = 2√(DCₒ·Cₕ)",
+        "D": "Tmin = 2√(DCₒ·Cₕ(1 − d/p))"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 94,
+      "subject": "Industrial Engineering",
+      "topic": "Industrial Engineering — Wage incentives",
+      "question": "In the Halsey system of wage incentive plan, a worker is",
+      "hasFigure": false,
+      "options": {
+        "A": "paid as per efficiency",
+        "B": "ensured of minimum wages",
+        "C": "never a loser",
+        "D": "induced to do more work"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 95,
+      "subject": "Operations Research",
+      "topic": "Operations Research — Simplex",
+      "question": "In the Simplex method, the existence of more than one optimum solution is indicated when",
+      "hasFigure": false,
+      "options": {
+        "A": "some of the values in the constant column (bᵢ) are zero",
+        "B": "all the replacement ratios bᵢ/aᵢ (aᵢ = key column coefficient) are negative",
+        "C": "values of the index row, zⱼ − cⱼ or cⱼ − zⱼ, under one or more of the non-basic variables is/are zero",
+        "D": "artificial variables are present in the base"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 96,
+      "subject": "Industrial Engineering",
+      "topic": "Industrial Engineering — Work study",
+      "question": "The string diagram is",
+      "hasFigure": false,
+      "options": {
+        "A": "a scale plan or model on which a thread is used to trace and measure the path of workers, material or equipment",
+        "B": "a tabular record for presenting quantitative data about the movement of workers, materials or equipments",
+        "C": "a chart in which the workers, materials or equipments are recorded on a common time scale to show their inter-relationship",
+        "D": "a technique for measuring time taken by workers"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 97,
+      "subject": "Operations Research",
+      "topic": "Operations Research — PERT",
+      "question": "In a PERT network, an activity has an optimistic time of 3 days, pessimistic time of 15 days and the expected time is 7 days. The most likely time of the activity is",
+      "hasFigure": false,
+      "options": {
+        "A": "6 days",
+        "B": "7 days",
+        "C": "5 days",
+        "D": "9 days"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 98,
+      "subject": "Engineering Mechanics",
+      "topic": "Engineering Mechanics — Resultant of forces",
+      "question": "If two equal forces of magnitude P act at an angle θ°, their resultant will be",
+      "hasFigure": false,
+      "options": {
+        "A": "(P/2) cos(θ/2)",
+        "B": "2P sin(θ/2)",
+        "C": "2P tan(θ/2)",
+        "D": "2P cos(θ/2)"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 99,
+      "subject": "Engineering Mechanics",
+      "topic": "Engineering Mechanics — Friction",
+      "question": "On a ladder resting on smooth ground and leaning against a rough vertical wall, the force of friction will be",
+      "hasFigure": false,
+      "options": {
+        "A": "towards the wall at its upper end",
+        "B": "away from the wall at its upper end",
+        "C": "upwards at its upper end",
+        "D": "downwards at its upper end"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 100,
+      "subject": "Fluid Mechanics",
+      "topic": "Fluid Mechanics — Floatation",
+      "question": "A ship will sink if its own load does not displace water equal to its own",
+      "hasFigure": false,
+      "options": {
+        "A": "volume",
+        "B": "density",
+        "C": "surface area",
+        "D": "weight"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 101,
+      "subject": "Engineering Mechanics",
+      "topic": "Engineering Mechanics — Kinematics",
+      "question": "A particle moves along a straight line such that the distance (x) traversed in t seconds is given by x = t²(t − 4). The acceleration of the particle will be given by the equation",
+      "hasFigure": false,
+      "options": {
+        "A": "3t³ − 2t",
+        "B": "3t² + 2t",
+        "C": "6t − 8",
+        "D": "6t − 4"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 102,
+      "subject": "Engineering Mechanics",
+      "topic": "Engineering Mechanics — Radius of gyration",
+      "question": "The radius of gyration of a disc type flywheel of diameter D is",
+      "hasFigure": false,
+      "options": {
+        "A": "D",
+        "B": "D/2",
+        "C": "D/4",
+        "D": "(3/√2) D"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 103,
+      "subject": "Theory of Machines",
+      "topic": "Theory of Machines — Balancing",
+      "question": "Partial balancing in locomotives results in",
+      "hasFigure": false,
+      "options": {
+        "A": "hammer blow, variation of tractive effort, swaying couple",
+        "B": "least wear",
+        "C": "most smooth operation",
+        "D": "better performance of engine"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 104,
+      "subject": "Theory of Machines",
+      "topic": "Theory of Machines — Vibrations",
+      "question": "Which of the following pairs is correctly matched?",
+      "hasFigure": false,
+      "options": {
+        "A": "Coulomb – Energy principle",
+        "B": "Rayleigh – Dynamic equilibrium",
+        "C": "D'Alembert – Damping force",
+        "D": "Fourier – Frequency domain analysis"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 105,
+      "subject": "Machine Design",
+      "topic": "Machine Design — Screw jack",
+      "question": "The mean diameter of a screw jack having pitch 10 mm is 50 mm. A load of 20 kN is lifted through a vertical distance of 170 mm. Find the work done in lifting the load when the load rotates with the screw. The external and internal diameter of the bearing surface of the load head are 60 mm and 10 mm respectively. Take μ = 0.08.",
+      "hasFigure": false,
+      "options": {
+        "A": "72.25 N-m",
+        "B": "31.85 N-m",
+        "C": "7718 N-m",
+        "D": "10025 N-m"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 106,
+      "subject": "Theory of Machines",
+      "topic": "Theory of Machines — Gears",
+      "question": "Law of gearing is satisfied if",
+      "hasFigure": false,
+      "options": {
+        "A": "two surfaces slide correctly",
+        "B": "common normal at the point of contact passes through the pitch point",
+        "C": "common tangent at the point of contact passes through the pitch point",
+        "D": "addendum > dedendum"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 107,
+      "subject": "Theory of Machines",
+      "topic": "Theory of Machines — Gear trains",
+      "question": "The train value of a gear train is",
+      "hasFigure": false,
+      "options": {
+        "A": "equal to velocity ratio",
+        "B": "reciprocal of velocity ratio",
+        "C": "always greater than unity",
+        "D": "always equal to unity"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 108,
+      "subject": "Theory of Machines",
+      "topic": "Theory of Machines — Epicyclic gears",
+      "question": "Gear B rotates at 150 rpm about its own axis (T_A = 20; T_B = 40). The arm C will rotate at",
+      "hasFigure": true,
+      "options": {
+        "A": "150 rpm",
+        "B": "200 rpm",
+        "C": "100 rpm",
+        "D": "250 rpm"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 109,
+      "subject": "Theory of Machines",
+      "topic": "Theory of Machines — Vibrations",
+      "question": "A mass M is attached to a spring whose one end is fixed. The mass and stiffness of the spring are m and K respectively. The natural frequency of the system would be",
+      "hasFigure": false,
+      "options": {
+        "A": "(1/2π)√(K/(m+m))",
+        "B": "(1/2π)√(2K/(m+m))",
+        "C": "(1/2π)√(3K/(m+3m))",
+        "D": "(1/2π)√(2K/(m+2m))"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 110,
+      "subject": "Machine Design",
+      "topic": "Machine Design — Joints",
+      "question": "The type of joint used in cycle chain is",
+      "hasFigure": false,
+      "options": {
+        "A": "Cotter joint",
+        "B": "Knuckle joint",
+        "C": "Gib and cotter joint",
+        "D": "Riveted joint"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 111,
+      "subject": "Machine Design",
+      "topic": "Machine Design — Couplings",
+      "question": "The type of coupling used for high torque and low speed is",
+      "hasFigure": false,
+      "options": {
+        "A": "Muff coupling",
+        "B": "Bushed pin flexible coupling",
+        "C": "Disc coupling",
+        "D": "Oldham's coupling"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 112,
+      "subject": "Machine Design",
+      "topic": "Machine Design — Clutches",
+      "question": "Which one of the following is not a desirable characteristic of friction clutches?",
+      "hasFigure": false,
+      "options": {
+        "A": "the moving parts should be weighty enough",
+        "B": "should have good heat conductivity",
+        "C": "should have high coefficient of friction",
+        "D": "should have high wear resistance"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 113,
+      "subject": "Machine Design",
+      "topic": "Machine Design — Gears",
+      "question": "The formative number of teeth of a Helical gear will be",
+      "hasFigure": false,
+      "options": {
+        "A": "T/cos α",
+        "B": "T/cos²α",
+        "C": "T/cos³α",
+        "D": "T/cos⁴α"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 114,
+      "subject": "Strength of Materials",
+      "topic": "Strength of Materials — Creep",
+      "question": "In the tensile test, the phenomenon of slow extension of the material, i.e. stress increasing with time at a constant load, is called",
+      "hasFigure": false,
+      "options": {
+        "A": "creeping",
+        "B": "yielding",
+        "C": "breaking",
+        "D": "plasticity"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 115,
+      "subject": "Strength of Materials",
+      "topic": "Strength of Materials — Torsion",
+      "question": "Torsion bars are in parallel",
+      "hasFigure": false,
+      "options": {
+        "A": "if same torque acts on each",
+        "B": "if they have equal angles of twist and applied torque apportioned between them",
+        "C": "are not possible",
+        "D": "if their ends are connected together"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 116,
+      "subject": "Machine Design",
+      "topic": "Machine Design — Brakes",
+      "question": "The brakes commonly used in railway trains is",
+      "hasFigure": false,
+      "options": {
+        "A": "shoe brake",
+        "B": "band brake",
+        "C": "band and block brake",
+        "D": "internal expanding brake"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 117,
+      "subject": "Machine Design",
+      "topic": "Machine Design — Bearings",
+      "question": "Anti-friction bearings are",
+      "hasFigure": false,
+      "options": {
+        "A": "sleeve bearings",
+        "B": "gas lubricated bearings",
+        "C": "ball and roller bearings",
+        "D": "special bearings requiring no lubricant"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 118,
+      "subject": "Machine Design",
+      "topic": "Machine Design — Belt drives",
+      "question": "Stretching in a belt can be controlled by",
+      "hasFigure": false,
+      "options": {
+        "A": "decreasing belt length",
+        "B": "increasing centre distance",
+        "C": "increasing pulley diameter",
+        "D": "reducing stress in the belt"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 119,
+      "subject": "Machine Design",
+      "topic": "Machine Design — Belt drives",
+      "question": "Centrifugal tension in belts",
+      "hasFigure": false,
+      "options": {
+        "A": "reduces power transmission",
+        "B": "increases power transmission",
+        "C": "does not affect power transmission",
+        "D": "increases power transmission at high speed and decreases it at lower speed"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 120,
+      "subject": "Fluid Mechanics",
+      "topic": "Fluid Mechanics — Properties",
+      "question": "Property of a fluid by which molecules of different kinds of fluids are attracted to each other is called",
+      "hasFigure": false,
+      "options": {
+        "A": "adhesion",
+        "B": "cohesion",
+        "C": "viscosity",
+        "D": "surface tension"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 121,
+      "subject": "Fluid Mechanics",
+      "topic": "Fluid Mechanics — Pressure",
+      "question": "The intensity of pressure at any point in a liquid at rest is the same in all directions. The above statement is known as",
+      "hasFigure": false,
+      "options": {
+        "A": "Kirchoff's law",
+        "B": "Pascal's law",
+        "C": "Newton's law",
+        "D": "Darcy-Weisbach law"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 122,
+      "subject": "Fluid Mechanics",
+      "topic": "Fluid Mechanics — Viscosity",
+      "question": "The viscosity of liquid ______ with increase in temperature.",
+      "hasFigure": false,
+      "options": {
+        "A": "decreases",
+        "B": "increases",
+        "C": "first increases and then decreases",
+        "D": "first decreases and then increases"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 123,
+      "subject": "Fluid Mechanics",
+      "topic": "Fluid Mechanics — Boundary layer",
+      "question": "The boundary layer separation occurs when",
+      "hasFigure": false,
+      "options": {
+        "A": "dp/dx < 0",
+        "B": "(∂u/∂y) at y=0 is = 0",
+        "C": "(∂u/∂y) at y=0 is > 0",
+        "D": "dp/dx > 0"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 124,
+      "subject": "Fluid Mechanics",
+      "topic": "Fluid Mechanics — Compressibility",
+      "question": "Compressibility is the reciprocal of",
+      "hasFigure": false,
+      "options": {
+        "A": "bulk modulus of elasticity",
+        "B": "shear modulus of elasticity",
+        "C": "young's modulus of elasticity",
+        "D": "viscosity"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 125,
+      "subject": "Fluid Mechanics",
+      "topic": "Fluid Mechanics — Boundary layer",
+      "question": "The boundary layer is called turbulent boundary layer if",
+      "hasFigure": false,
+      "options": {
+        "A": "Reynolds number is more than 2000",
+        "B": "Reynolds number is more than 4000",
+        "C": "Reynolds number is more than 5 × 10⁵",
+        "D": "Reynolds number is more than 6 × 10⁵"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 126,
+      "subject": "Fluid Mechanics",
+      "topic": "Fluid Mechanics — Dimensionless numbers",
+      "question": "Euler's dimensionless number relates the following:",
+      "hasFigure": false,
+      "options": {
+        "A": "Inertial force and gravity force",
+        "B": "pressure force and inertial force",
+        "C": "viscous force and gravity force",
+        "D": "pressure force and viscous force"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 127,
+      "subject": "Fluid Mechanics",
+      "topic": "Fluid Mechanics — Streamlined body",
+      "question": "A streamlined body is defined as a body about which",
+      "hasFigure": false,
+      "options": {
+        "A": "the drag is zero",
+        "B": "the flow is laminar",
+        "C": "the flow is along the streamlines",
+        "D": "the flow separation is suppressed"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 128,
+      "subject": "Fluid Mechanics",
+      "topic": "Fluid Mechanics — Pipe flow",
+      "question": "When the pipes are connected in series, the total rate of flow",
+      "hasFigure": false,
+      "options": {
+        "A": "is equal to the sum of the rate of flow in each pipe",
+        "B": "is equal to the reciprocal of the sum of the rate of flow in each pipe",
+        "C": "is the same as flowing through each pipe",
+        "D": "is varied in each pipe"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 129,
+      "subject": "Thermodynamics",
+      "topic": "Thermodynamics — Properties",
+      "question": "Which of the following is not a property of the system?",
+      "hasFigure": false,
+      "options": {
+        "A": "temperature",
+        "B": "pressure",
+        "C": "specific volume",
+        "D": "heat"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 130,
+      "subject": "Thermodynamics",
+      "topic": "Thermodynamics — Availability",
+      "question": "For a compression or heating process, the expression for effectiveness ∈ is",
+      "hasFigure": false,
+      "options": {
+        "A": "increase of availability of surroundings / loss of availability of the system",
+        "B": "increase of availability of the system / loss of availability of the surroundings",
+        "C": "loss of availability of the system / increase of availability of the system",
+        "D": "loss of availability of the system / increase of availability of the surroundings"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 131,
+      "subject": "Thermodynamics",
+      "topic": "Thermodynamics — Equations of state",
+      "question": "The equation of state pv = RT(1 + B₂/v + B₃/v² + B₄/v³) is known as",
+      "hasFigure": false,
+      "options": {
+        "A": "Vander Waal's equation",
+        "B": "Benedict-Webb-Rubin equation",
+        "C": "Gibbs equation",
+        "D": "Virial equation"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 132,
+      "subject": "Thermodynamics",
+      "topic": "Thermodynamics — Joule's law",
+      "question": "Joule's law states that the specific internal energy of a gas depends only on",
+      "hasFigure": false,
+      "options": {
+        "A": "the pressure of the gas",
+        "B": "the volume of the gas",
+        "C": "the temperature of the gas",
+        "D": "the pressure and volume of the gas"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 133,
+      "subject": "Thermodynamics",
+      "topic": "Thermodynamics — Availability",
+      "question": "Irreversibility of the process is equal to",
+      "hasFigure": false,
+      "options": {
+        "A": "Wmax − W",
+        "B": "W − Wmax",
+        "C": "Wmax",
+        "D": "W"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 134,
+      "subject": "Thermodynamics",
+      "topic": "Thermodynamics — Clausius inequality",
+      "question": "300 kJ/s of heat is supplied at a constant fixed temperature of 290°C to a heat engine. 100 kJ/s of heat is rejected at 8.5°C. Then the cycle is reported as",
+      "hasFigure": false,
+      "options": {
+        "A": "Reversible",
+        "B": "Irreversible",
+        "C": "Impossible",
+        "D": "Random"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 135,
+      "subject": "IC Engines",
+      "topic": "IC Engines — Fuel rating",
+      "question": "The two reference fuels used for octane rating are",
+      "hasFigure": false,
+      "options": {
+        "A": "octane and isooctane",
+        "B": "octane and tetraethyl lead",
+        "C": "octane and n-heptane",
+        "D": "cetane and alpha methyl napthalene"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 136,
+      "subject": "Thermodynamics",
+      "topic": "Thermodynamics — Rankine cycle",
+      "question": "Reheating of Rankine cycle will",
+      "hasFigure": false,
+      "options": {
+        "A": "not alter turbine efficiency",
+        "B": "improve the steam quality",
+        "C": "decrease the nozzle and blade efficiency",
+        "D": "decrease the turbine efficiency"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 137,
+      "subject": "Thermodynamics",
+      "topic": "Thermodynamics — Entropy",
+      "question": "Anything that generates entropy always",
+      "hasFigure": false,
+      "options": {
+        "A": "increases enthalpy",
+        "B": "decreases pressure",
+        "C": "decreases energy",
+        "D": "lowers chemical reaction"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 138,
+      "subject": "Thermodynamics",
+      "topic": "Thermodynamics — Carnot cycle",
+      "question": "The processes of a Carnot cycle are",
+      "hasFigure": false,
+      "options": {
+        "A": "two adiabatic and two constant volume",
+        "B": "two adiabatic and two isothermal",
+        "C": "two isentropic and two isothermal",
+        "D": "two isothermals and two constant pressure"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 139,
+      "subject": "Thermodynamics",
+      "topic": "Thermodynamics — Gas constant",
+      "question": "The value of characteristic constant of oxygen would be",
+      "hasFigure": false,
+      "options": {
+        "A": "0.412 kJ/kg-K",
+        "B": "0.262 kJ/kg-K",
+        "C": "1.004 kJ/kg-K",
+        "D": "0.624 kJ/kg-K"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 140,
+      "subject": "Thermodynamics",
+      "topic": "Thermodynamics — Polytropic process",
+      "question": "If the value of n is zero in the equation pVⁿ = c, then the process is called",
+      "hasFigure": false,
+      "options": {
+        "A": "constant volume process",
+        "B": "constant pressure process",
+        "C": "adiabatic process",
+        "D": "isothermal process"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 141,
+      "subject": "Thermodynamics",
+      "topic": "Thermodynamics — Entropy",
+      "question": "For any irreversible process, net entropy change is",
+      "hasFigure": false,
+      "options": {
+        "A": "zero",
+        "B": "positive",
+        "C": "negative",
+        "D": "infinite"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 142,
+      "subject": "Heat Transfer",
+      "topic": "Heat Transfer — Heat exchangers",
+      "question": "For a specified NTU and capacity ratio 'c', the effectiveness will be the highest for",
+      "hasFigure": false,
+      "options": {
+        "A": "parallel flow heat exchanger",
+        "B": "counter flow heat exchanger",
+        "C": "cross flow heat exchanger",
+        "D": "parallel flow and cross flow heat exchangers"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 143,
+      "subject": "Heat Transfer",
+      "topic": "Heat Transfer — Fouling",
+      "question": "Fouling in heat exchangers increases",
+      "hasFigure": false,
+      "options": {
+        "A": "with increase in temperature and decrease in velocity",
+        "B": "with increase in temperature and increase in velocity",
+        "C": "with decrease in temperature and decrease in velocity",
+        "D": "with decrease in temperature and increase in velocity"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 144,
+      "subject": "Heat Transfer",
+      "topic": "Heat Transfer — Capacity ratio",
+      "question": "In a heat exchanger, the hot liquid enters at a temperature of 180°C and leaves at 160°C. The cooling fluid enters at 30°C and leaves at 110°C. The capacity ratio of the heat exchanger is",
+      "hasFigure": false,
+      "options": {
+        "A": "0.25",
+        "B": "0.40",
+        "C": "0.50",
+        "D": "0.55"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 145,
+      "subject": "Heat Transfer",
+      "topic": "Heat Transfer — Free convection",
+      "question": "In free convection heat transfer, transition from laminar to turbulent flow is governed by the critical value of the",
+      "hasFigure": false,
+      "options": {
+        "A": "Reynolds number",
+        "B": "Grashoff number",
+        "C": "Reynolds and Grashoff number",
+        "D": "Prandtl and Grashoff number"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 146,
+      "subject": "Mass Transfer",
+      "topic": "Mass Transfer",
+      "question": "The dimensionless number in mass transfer which plays an equivalent role to the Prandtl number in heat transfer is",
+      "hasFigure": false,
+      "options": {
+        "A": "Nusselt number",
+        "B": "Lewis number",
+        "C": "Schmidt number",
+        "D": "Grashof number"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 147,
+      "subject": "Refrigeration & Air Conditioning",
+      "topic": "Refrigeration & Air Conditioning — Psychrometry",
+      "question": "Moist air exists at a pressure of 1.01 bar. The partial pressure and saturation pressure of water vapour are 0.01 bar and 0.02 bar respectively. What is the relative humidity?",
+      "hasFigure": false,
+      "options": {
+        "A": "50%",
+        "B": "100%",
+        "C": "25%",
+        "D": "10%"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 148,
+      "subject": "Mass Transfer",
+      "topic": "Mass Transfer",
+      "question": "Given Nu = Nusselt number, Re = Reynolds number, Pr = Prandtl number, Sh = Sherwood number, Sc = Schmidt number, Gr = Grashoff number. The functional relationship of free convective mass transfer is given as",
+      "hasFigure": false,
+      "options": {
+        "A": "Nu = f(Gr, Pr)",
+        "B": "Sh = f(Sc, Gr)",
+        "C": "Nu = f(Re, Pr)",
+        "D": "Sh = f(Re, Sc)"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 149,
+      "subject": "Material Science",
+      "topic": "Material Science — Ductility",
+      "question": "The property which enables metals to be drawn into wire is",
+      "hasFigure": false,
+      "options": {
+        "A": "ductility",
+        "B": "malleability",
+        "C": "plastic deformation",
+        "D": "elastic deformation"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 150,
+      "subject": "Material Science",
+      "topic": "Material Science — Hardness",
+      "question": "Brinell hardness number is calculated by using the equation (L = load in kg, D = dia. of ball in mm, d = dia. of indentation in mm)",
+      "hasFigure": false,
+      "options": {
+        "A": "BHN = 2L / [πD(D − √(D²−d²))]",
+        "B": "BHN = L / [πD(D − √(D²−d²))]",
+        "C": "BHN = 2L / [πd(D − √(D²−d²))]",
+        "D": "BHN = L / [πd(D − √(D²−d²))]"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 151,
+      "subject": "Material Testing",
+      "topic": "Material Testing — NDT",
+      "question": "Which of the following is a non-destructive test?",
+      "hasFigure": false,
+      "options": {
+        "A": "tensile test",
+        "B": "charpy test",
+        "C": "cupping test",
+        "D": "radiography test"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 152,
+      "subject": "Material Science",
+      "topic": "Material Science",
+      "question": "Permalloy is",
+      "hasFigure": false,
+      "options": {
+        "A": "a non-ferrous alloy used in aircraft industry",
+        "B": "a polymer",
+        "C": "a nickel and iron alloy having high permeability",
+        "D": "a kind of stainless steel"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 153,
+      "subject": "Material Science",
+      "topic": "Material Science — Crystallography",
+      "question": "(a√3)/4 is the atomic radius of",
+      "hasFigure": false,
+      "options": {
+        "A": "BCC lattice",
+        "B": "FCC lattice",
+        "C": "HCP lattice",
+        "D": "Simple cubic"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 154,
+      "subject": "Industrial Engineering",
+      "topic": "Industrial Engineering — Inventory",
+      "question": "Sum of buffer stock, reserve stock and safety stock is equal to",
+      "hasFigure": false,
+      "options": {
+        "A": "Reorder Level (ROL)",
+        "B": "Ordering quantity",
+        "C": "Average inventory",
+        "D": "Maximum inventory"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 155,
+      "subject": "Material Science",
+      "topic": "Material Science — Polymers",
+      "question": "Phenol and formaldehyde are polymerized to produce",
+      "hasFigure": false,
+      "options": {
+        "A": "Bakelite",
+        "B": "Polyester",
+        "C": "PVC",
+        "D": "Polyethylene"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 156,
+      "subject": "Material Testing",
+      "topic": "Material Testing — NDT",
+      "question": "The most inexpensive non-destructive method of material testing is",
+      "hasFigure": false,
+      "options": {
+        "A": "Dye penetrant testing",
+        "B": "Ultrasonic testing",
+        "C": "X-ray testing",
+        "D": "Visual testing"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 157,
+      "subject": "Material Science",
+      "topic": "Material Science — Alloy steels",
+      "question": "Corrosion resistance of steel is increased by addition of",
+      "hasFigure": false,
+      "options": {
+        "A": "phosphorous and vanadium",
+        "B": "chromium and nickel",
+        "C": "sulphur and lead",
+        "D": "tungsten and vanadium"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 158,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Heat treatment",
+      "question": "Austempering of steels results in greater",
+      "hasFigure": false,
+      "options": {
+        "A": "hardness",
+        "B": "toughness",
+        "C": "brittleness",
+        "D": "ductility"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 159,
+      "subject": "Material Science",
+      "topic": "Material Science — Iron-carbon",
+      "question": "Delta iron occurs at the temperature",
+      "hasFigure": false,
+      "options": {
+        "A": "above recrystallization temperature",
+        "B": "above melting point",
+        "C": "between 1400°C and 1539°C",
+        "D": "between 910°C and 1400°C"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 160,
+      "subject": "Material Science",
+      "topic": "Material Science — Cast iron",
+      "question": "Among the following materials, the most suitable material for withstanding shock and vibration without danger of cracking is",
+      "hasFigure": false,
+      "options": {
+        "A": "chilled cast iron",
+        "B": "gray cast iron",
+        "C": "malleable cast iron",
+        "D": "white cast iron"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 161,
+      "subject": "Material Science",
+      "topic": "Material Science — Polymers",
+      "question": "Filler is used in plastics to",
+      "hasFigure": false,
+      "options": {
+        "A": "completely fill up the voids created during manufacturing",
+        "B": "improve plasticity, strength and toughness",
+        "C": "provide colour, strength, impact resistance and reduce cost",
+        "D": "accelerate the condensation and polymerisation"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 162,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Welding",
+      "question": "In straight polarity welding",
+      "hasFigure": false,
+      "options": {
+        "A": "electrode holder is connected to the negative and the work to positive lead",
+        "B": "electrode holder is connected to the positive and the work to negative lead",
+        "C": "electrode holder is to be earthed and the work to positive lead",
+        "D": "electrode holder is connected to the negative lead and the work is to be earthed"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 163,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Casting defects",
+      "question": "Hot tear is a",
+      "hasFigure": false,
+      "options": {
+        "A": "hot working process",
+        "B": "welding defect",
+        "C": "casting defect",
+        "D": "forging defect"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 164,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Tool life (Taylor)",
+      "question": "The relationship between tool life (T) and cutting speed (V) m/min is expressed as (C = constant, n = exponent depending on tool and work piece)",
+      "hasFigure": false,
+      "options": {
+        "A": "Vⁿ T = C",
+        "B": "V Tⁿ = C",
+        "C": "Vⁿ/T = C",
+        "D": "Tⁿ/V = C"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 165,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Machining operations",
+      "question": "The operation of cutting a work piece after it has been machined to the desired shape and size is",
+      "hasFigure": false,
+      "options": {
+        "A": "tapping",
+        "B": "undercutting",
+        "C": "parting-off",
+        "D": "counter boring"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 166,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Finishing",
+      "question": "Lapping is",
+      "hasFigure": false,
+      "options": {
+        "A": "the operation of sizing and finishing a small diameter hole by removing a very small amount of material",
+        "B": "the operation of making a cone-shaped enlargement of the end of a hole",
+        "C": "the operation of smoothing and squaring the surface around a hole",
+        "D": "the operation of enlarging the end of a hole cylindrically"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 167,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Resistance welding",
+      "question": "For resistance spot welding of 1.5 mm thick steel sheets, the current required is of",
+      "hasFigure": false,
+      "options": {
+        "A": "10 A",
+        "B": "100 A",
+        "C": "1000 A",
+        "D": "10000 A"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 168,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Casting (Risering)",
+      "question": "A cylindrical blind riser with diameter 'd' and height 'h' is placed on the top of the mold cavity of a closed type sand mold. If the riser is of constant volume, then the rate of solidification in the riser is the least when the ratio h/d is",
+      "hasFigure": false,
+      "options": {
+        "A": "1:2",
+        "B": "2:1",
+        "C": "1:4",
+        "D": "4:1"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 169,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Metal cutting",
+      "question": "In an orthogonal cutting operation, the length of the cut is 76 mm, length of the chip measured is 61 mm and depth of cut is 0.2 mm. What is the thickness of the chip?",
+      "hasFigure": false,
+      "options": {
+        "A": "0.01 mm",
+        "B": "0.8 mm",
+        "C": "0.2 mm",
+        "D": "0.25 mm"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 170,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Tool wear",
+      "question": "Cutting tool is much harder than the work piece, yet the tool wears out during the tool-work interaction, because",
+      "hasFigure": false,
+      "options": {
+        "A": "extra hardness is imparted to the work piece due to coolant used",
+        "B": "oxide layers formed on the work piece surface impart extra hardness to it",
+        "C": "extra hardness is imparted to the work piece due to severe rate of strain",
+        "D": "vibration is induced in the machine tool"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 171,
+      "subject": "Manufacturing",
+      "topic": "Manufacturing — Casting (Shrinkage)",
+      "question": "An aluminium cube of 12 cm side has to be cast along a cylindrical riser of height equal to its diameter. The riser is not insulated on any surface. If the volume shrinkage of aluminium during solidification is 6 percent, calculate the shrinkage volume on solidification.",
+      "hasFigure": false,
+      "options": {
+        "A": "72 cm³",
+        "B": "103.68 cm³",
+        "C": "1728 cm³",
+        "D": "1624.32 cm³"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 172,
+      "subject": "Metrology",
+      "topic": "Metrology — Characteristics",
+      "question": "Which of the following gives an idea about the ability of the equipment to detect small variation in the input signal?",
+      "hasFigure": false,
+      "options": {
+        "A": "readability",
+        "B": "accuracy",
+        "C": "sensitivity",
+        "D": "precision"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 173,
+      "subject": "Metrology",
+      "topic": "Metrology — Slip gauges",
+      "question": "The two slip gauges in precision measurement are joined by",
+      "hasFigure": false,
+      "options": {
+        "A": "assembling",
+        "B": "sliding",
+        "C": "adhesion",
+        "D": "wringing"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 174,
+      "subject": "Metrology",
+      "topic": "Metrology — Taylor's principle",
+      "question": "According to Taylor's principle, the No-Go gauge checks",
+      "hasFigure": false,
+      "options": {
+        "A": "only one feature at a time",
+        "B": "only important dimensions at a time",
+        "C": "all the dimensions at a time",
+        "D": "only the related dimensions at a time"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 175,
+      "subject": "Metrology",
+      "topic": "Metrology — Precision",
+      "question": "Precision is",
+      "hasFigure": false,
+      "options": {
+        "A": "the repeatability of a measuring process",
+        "B": "arrangement of a measurement with true value",
+        "C": "the ability of a measuring device to detect small differences",
+        "D": "the ability of an instrument to reproduce the same reading under identical conditions"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 176,
+      "subject": "Instrumentation",
+      "topic": "Instrumentation — Flow measurement",
+      "question": "Variable Head flow meters can be used for measurement of flow of",
+      "hasFigure": false,
+      "options": {
+        "A": "liquids only",
+        "B": "liquids and gases",
+        "C": "slurries only",
+        "D": "liquids, gases and slurries"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 177,
+      "subject": "Instrumentation",
+      "topic": "Instrumentation — Flow measurement",
+      "question": "Rotameter is a",
+      "hasFigure": false,
+      "options": {
+        "A": "drag force flow meter",
+        "B": "variable area flow meter",
+        "C": "variable head flow meter",
+        "D": "rotating propeller type flow meter"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 178,
+      "subject": "Instrumentation",
+      "topic": "Instrumentation — Load cells",
+      "question": "Piezoelectric type of load cells can be used for measurement of",
+      "hasFigure": false,
+      "options": {
+        "A": "dynamic forces only",
+        "B": "dynamic forces and static forces provided the load cells have a small time constant",
+        "C": "dynamic forces and static forces provided the load cells have a large time constant",
+        "D": "static forces only"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 179,
+      "subject": "CNC / DNC",
+      "topic": "CNC / DNC",
+      "question": "Choose the wrong statement:",
+      "hasFigure": false,
+      "options": {
+        "A": "CNC computers control only one machine while DNC computers control many machines using local networking",
+        "B": "CNC computer is an integrated part of the machine whereas DNC computer is located at a distance from the machine",
+        "C": "DNC computers have higher processing power than CNC computers",
+        "D": "DNC software does not take care of management of information flow to a group of machines"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 180,
+      "subject": "CAPP",
+      "topic": "CAPP",
+      "question": "In Retrieval CAPP systems,",
+      "hasFigure": false,
+      "options": {
+        "A": "no standard manufacturing plans are stored",
+        "B": "a standard process plan is stored in computer files for each part code number",
+        "C": "engineering drawing specifications are translated into computer interpretable data",
+        "D": "manufacturing plans are prepared"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 181,
+      "subject": "Robotics",
+      "topic": "Robotics — Programming",
+      "question": "Which of the following is not a robot programming method?",
+      "hasFigure": false,
+      "options": {
+        "A": "Manual programming method",
+        "B": "Walk through programming method",
+        "C": "Teach pendant method",
+        "D": "Numerical programming method"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 182,
+      "subject": "CIM",
+      "topic": "CIM",
+      "question": "The roles of rover operator in a CIM system are",
+      "hasFigure": false,
+      "options": {
+        "A": "the supervision of other Human Resources in the system",
+        "B": "making the tools ready for production",
+        "C": "setting up the fixtures, pallets and tools for the system",
+        "D": "reacting to unscheduled machine stops, identifying broken tools and tool adjustments"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 183,
+      "subject": "CIM",
+      "topic": "CIM — Work cell control",
+      "question": "In work cell control, checking the continuation of work cycle is known as",
+      "hasFigure": false,
+      "options": {
+        "A": "interlock",
+        "B": "bottleneck",
+        "C": "automatic lock",
+        "D": "check point"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 184,
+      "subject": "FEM / Strength of Materials",
+      "topic": "FEM / Strength of Materials",
+      "question": "______ condition exists when the thickness dimension is much smaller than the other two (length and width) dimensions of a solid",
+      "hasFigure": false,
+      "options": {
+        "A": "plane strain",
+        "B": "plane stress",
+        "C": "plane tension",
+        "D": "axi-symmetric"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 185,
+      "subject": "FEM",
+      "topic": "FEM — Elements",
+      "question": "These are the elements having no internal node",
+      "hasFigure": false,
+      "options": {
+        "A": "Lagrange elements",
+        "B": "Serendipity elements",
+        "C": "Cubic elements",
+        "D": "Symmetric element"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 186,
+      "subject": "FEM",
+      "topic": "FEM — Methods",
+      "question": "Most FEM software use",
+      "hasFigure": false,
+      "options": {
+        "A": "displacement method",
+        "B": "force method",
+        "C": "skyline method",
+        "D": "stress method"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 187,
+      "subject": "Group Technology",
+      "topic": "Group Technology — Coding",
+      "question": "In optic coding schemes the following digit sequence is used: 12345 6789 ABCD. The digits 6789 represent the",
+      "hasFigure": false,
+      "options": {
+        "A": "form code",
+        "B": "secondary code",
+        "C": "supplementary code",
+        "D": "primary code"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 188,
+      "subject": "FEM",
+      "topic": "FEM — Strain-displacement matrix",
+      "question": "Which of the following are correct? 1. [B] matrix relates strain and displacement vector 2. [B] matrix is expressed using shape function 3. [B] matrix is a square matrix 4. The size of [B] matrix depends on the number of field variables and degrees of freedom",
+      "hasFigure": false,
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "1, 2 and 4",
+        "D": "2, 3 and 4"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 189,
+      "subject": "Industrial Engineering",
+      "topic": "Industrial Engineering — Work study",
+      "question": "Work study is concerned with",
+      "hasFigure": false,
+      "options": {
+        "A": "motivation of workers",
+        "B": "improving present method and determining the standard time",
+        "C": "improving production capability",
+        "D": "improving production planning and control"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 190,
+      "subject": "Industrial Engineering",
+      "topic": "Industrial Engineering — MTM",
+      "question": "One Time Measurement Unit (TMU) in the Methods Time Measurement system equals",
+      "hasFigure": false,
+      "options": {
+        "A": "0.6 minute",
+        "B": "0.06 minute",
+        "C": "0.006 minute",
+        "D": "0.0006 minute"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 191,
+      "subject": "Industrial Engineering",
+      "topic": "Industrial Engineering — Motivation",
+      "question": "Which one of the following cannot be considered as an example of external motivation factors?",
+      "hasFigure": false,
+      "options": {
+        "A": "bonus",
+        "B": "fear of loss of job",
+        "C": "praise",
+        "D": "self interests"
+      },
+      "answer": "D"
+    },
+    {
+      "number": 192,
+      "subject": "Operations Research",
+      "topic": "Operations Research — CPM/PERT",
+      "question": "The time by which the activity completion time can be delayed without affecting the start of succeeding activities is called",
+      "hasFigure": false,
+      "options": {
+        "A": "interfering float",
+        "B": "total float",
+        "C": "free float",
+        "D": "duration"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 193,
+      "subject": "Industrial Engineering",
+      "topic": "Industrial Engineering — Inventory (ROP)",
+      "question": "The lead time consumption is 500 units. The annual consumption is 8000 units. The company has a policy of EOQ ordering and maintenance of 200 units as safety stock. The Reorder Point (ROP) is",
+      "hasFigure": false,
+      "options": {
+        "A": "700 units",
+        "B": "500 units",
+        "C": "200 units",
+        "D": "8000 units"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 194,
+      "subject": "Industrial Engineering",
+      "topic": "Industrial Engineering — Production planning",
+      "question": "The order in which different jobs are taken up in the machine or process is called",
+      "hasFigure": false,
+      "options": {
+        "A": "sequencing",
+        "B": "scheduling",
+        "C": "routing",
+        "D": "aggregate planning"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 195,
+      "subject": "Industrial Engineering",
+      "topic": "Industrial Engineering — Micromotion study",
+      "question": "A SIMO chart should be used with",
+      "hasFigure": false,
+      "options": {
+        "A": "Therbligs",
+        "B": "Process chart",
+        "C": "Flow chart",
+        "D": "String diagram"
+      },
+      "answer": "A"
+    },
+    {
+      "number": 196,
+      "subject": "Operations Research",
+      "topic": "Operations Research — CPM",
+      "question": "Free float in CPM method is computed by",
+      "hasFigure": false,
+      "options": {
+        "A": "subtracting the total float from Head event slack",
+        "B": "subtracting the head event slack from total float",
+        "C": "subtracting the tail event slack from total float",
+        "D": "difference between total float and independent float"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 197,
+      "subject": "Industrial Engineering",
+      "topic": "Industrial Engineering — EOQ",
+      "question": "ABC corporation has a demand for a particular part of 10,000 units/year. It costs Rs.36 to place an order and process the delivery. The inventory carrying cost is estimated at 9% of average inventory investment, with unit cost Rs.2. Determine the EOQ.",
+      "hasFigure": false,
+      "options": {
+        "A": "1000 units",
+        "B": "2000 units",
+        "C": "3000 units",
+        "D": "4000 units"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 198,
+      "subject": "Industrial Engineering",
+      "topic": "Industrial Engineering — Material handling",
+      "question": "Which one of the following is not a symptom of bad material handling?",
+      "hasFigure": false,
+      "options": {
+        "A": "accumulation of work-in-process and materials in different locations",
+        "B": "lower investment in in-process inventory",
+        "C": "reworking and rejections due to handling defects",
+        "D": "crowded floor space with scrap and materials"
+      },
+      "answer": "B"
+    },
+    {
+      "number": 199,
+      "subject": "Operations Research",
+      "topic": "Operations Research — Network diagrams",
+      "question": "In a PERT and CPM network, an activity is represented by",
+      "hasFigure": true,
+      "options": {
+        "A": "a circle",
+        "B": "a triangle",
+        "C": "an arrow",
+        "D": "a square"
+      },
+      "answer": "C"
+    },
+    {
+      "number": 200,
+      "subject": "Operations Research",
+      "topic": "Operations Research — Linear programming",
+      "question": "Simplex method is used for carrying out",
+      "hasFigure": false,
+      "options": {
+        "A": "network analysis",
+        "B": "queuing theory",
+        "C": "linear programming",
+        "D": "value engineering"
+      },
+      "answer": "C"
+    }
+  ]
+}
