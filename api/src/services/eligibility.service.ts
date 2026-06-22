@@ -9,7 +9,7 @@ function parseLocalDate(dateStr: string): Date {
   return new Date(y, (m ?? 1) - 1, d ?? 1);
 }
 
-function calculateAge(dob: string, referenceDate?: string): number {
+export function calculateAge(dob: string, referenceDate?: string): number {
   const birth = parseLocalDate(dob);
   const ref = referenceDate ? parseLocalDate(referenceDate) : new Date();
   let age = ref.getFullYear() - birth.getFullYear();
@@ -30,8 +30,8 @@ function daysUntil(dateStr?: string): number | undefined {
   return Math.round(diff / (1000 * 60 * 60 * 24));
 }
 
-function checkEligibility(profile: UserProfile, exam: Exam): EligibilityResult {
-  const age = calculateAge(profile.dateOfBirth);
+export function checkEligibility(profile: UserProfile, exam: Exam, referenceDate?: string): EligibilityResult {
+  const age = calculateAge(profile.dateOfBirth, referenceDate);
   const reasons: string[] = [];
 
   // Age check — minimum and (category-relaxed) maximum
