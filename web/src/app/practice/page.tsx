@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 
 const API = "http://localhost:4000";
+const AI_API = "http://localhost:4100";
 
 interface PaperSummary {
   id: string;
@@ -48,6 +49,18 @@ interface ScoreResult {
   results: QuestionResult[];
 }
 
+interface AiExplanation {
+  explanation: string;
+  key_concept: string;
+  distractor_notes: { option: string; why_wrong: string }[];
+}
+
+interface ExplainState {
+  loading?: boolean;
+  data?: AiExplanation;
+  error?: string;
+}
+
 const OPTION_KEYS = ["A", "B", "C", "D"] as const;
 
 export default function PracticePage() {
@@ -61,6 +74,7 @@ export default function PracticePage() {
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [score, setScore] = useState<ScoreResult | null>(null);
   const [loading, setLoading] = useState(false);
+  const [explain, setExplain] = useState<Record<number, ExplainState>>({});
 
   useEffect(() => {
     fetch(`${API}/api/papers`)
@@ -74,6 +88,7 @@ export default function PracticePage() {
     setLoading(true);
     setScore(null);
     setAnswers({});
+    setExplain({});
     try {
       const params = new URLSearchParams({ count: String(count), shuffle: "true" });
       if (subject) params.set("subject", subject);
@@ -107,6 +122,33 @@ export default function PracticePage() {
   };
 
   const resultFor = (n: number) => score?.results.find((x) => x.number === n);
+
+  const explainQuestion = async (q: QuizQuestion) => {
+    const res = resultFor(q.number);
+    if (!res) return;
+    setExplain((s) => ({ ...s, [q.number]: { loading: true } }));
+    try {
+      const r = await fetch(`${AI_API}/explain`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          question: q.question,
+          options: q.options,
+          correct_answer: res.correct,
+          user_answer: res.chosen,
+          subject: q.subject,
+        }),
+      });
+      if (!r.ok) throw new Error(`AI service ${r.status}`);
+      const data: AiExplanation = await r.json();
+      setExplain((s) => ({ ...s, [q.number]: { data } }));
+    } catch {
+      setExplain((s) => ({
+        ...s,
+        [q.number]: { error: "AI service not reachable on port 4100." },
+      }));
+    }
+  };
 
   if (error) {
     return (
@@ -223,6 +265,42 @@ export default function PracticePage() {
                       );
                     })}
                   </div>
+
+                  {score && (
+                    <div className="mt-3">
+                      {!explain[q.number] && (
+                        <button
+                          onClick={() => explainQuestion(q)}
+                          className="text-sm px-3 py-1 bg-purple-700 hover:bg-purple-600 rounded font-medium"
+                        >
+                          ✨ Explain with AI
+                        </button>
+                      )}
+                      {explain[q.number]?.loading && (
+                        <p className="text-sm text-slate-400">Asking AI…</p>
+                      )}
+                      {explain[q.number]?.error && (
+                        <p className="text-sm text-red-400">{explain[q.number]?.error}</p>
+                      )}
+                      {explain[q.number]?.data && (
+                        <div className="mt-2 bg-slate-900/60 border border-purple-800 rounded p-3 text-sm">
+                          <p className="text-purple-300 font-semibold mb-1">
+                            {explain[q.number]?.data?.key_concept}
+                          </p>
+                          <p className="mb-2 text-slate-200">
+                            {explain[q.number]?.data?.explanation}
+                          </p>
+                          <ul className="space-y-1 text-slate-400">
+                            {explain[q.number]?.data?.distractor_notes.map((dn) => (
+                              <li key={dn.option}>
+                                <span className="font-semibold">({dn.option})</span> {dn.why_wrong}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                    </div>
+                  )}
                 </div>
               );
             })}

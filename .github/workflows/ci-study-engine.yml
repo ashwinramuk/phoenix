@@ -1,0 +1,64 @@
+name: Study Engine CI
+
+on:
+  push:
+    paths:
+      - "study-engine/**"
+      - ".github/workflows/ci-study-engine.yml"
+  pull_request:
+    paths:
+      - "study-engine/**"
+
+defaults:
+  run:
+    working-directory: study-engine
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: phoenix
+          POSTGRES_PASSWORD: phoenix
+          POSTGRES_DB: phoenix_study
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U phoenix"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 5
+
+    env:
+      NODE_ENV: test
+      PORT: 3001
+      DATABASE_URL: postgresql://phoenix:phoenix@localhost:5432/phoenix_study
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: study-engine/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Unit tests
+        run: npm test
+
+      - name: Security scan (production deps)
+        # multer (via @nestjs/platform-express) has a high advisory with no upstream
+        # fix yet and is unused here (no file uploads); gate on critical.
+        run: npm audit --omit=dev --audit-level=critical
+
+      - name: Seed (verifies DI + TypeORM schema + DB end-to-end)
+        run: npm run db:seed
