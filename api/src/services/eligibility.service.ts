@@ -20,10 +20,12 @@ export function calculateAge(dob: string, referenceDate?: string): number {
   return age;
 }
 
-function daysUntil(dateStr?: string): number | undefined {
+function daysUntil(dateStr?: string, referenceDate?: string): number | undefined {
   if (!dateStr) return undefined;
   const target = parseLocalDate(dateStr);
-  const now = new Date();
+  // Reference "now" is injectable so deadline math is deterministic under test
+  // (mirrors calculateAge). Falls back to the system clock in production.
+  const now = referenceDate ? parseLocalDate(referenceDate) : new Date();
   // Compare at day granularity so a same-day deadline reads as 0, not negative.
   const startOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate());
   const diff = target.getTime() - startOfToday.getTime();
@@ -75,8 +77,8 @@ export function checkEligibility(profile: UserProfile, exam: Exam, referenceDate
     reasons,
     reason: reasons[0],
     nearMiss: reasons.length === 1, // failing by exactly one criterion
-    daysUntilDeadline: daysUntil(exam.applicationDeadline),
-    daysUntilExam: daysUntil(exam.examDate),
+    daysUntilDeadline: daysUntil(exam.applicationDeadline, referenceDate),
+    daysUntilExam: daysUntil(exam.examDate, referenceDate),
   };
 }
 
