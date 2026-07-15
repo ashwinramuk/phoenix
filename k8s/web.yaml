@@ -1,0 +1,58 @@
+# Phoenix web (Next.js standalone). Stateless — scales horizontally behind the
+# Service; the browser reaches the API through the Ingress, not this pod.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web
+  namespace: phoenix
+  labels:
+    app: web
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+        - name: web
+          image: phoenix-web:latest
+          ports:
+            - containerPort: 3000
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 3000
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 3000
+            initialDelaySeconds: 15
+            periodSeconds: 20
+          resources:
+            requests:
+              cpu: 100m
+              memory: 128Mi
+            limits:
+              cpu: 500m
+              memory: 256Mi
+          securityContext:
+            runAsNonRoot: true
+            allowPrivilegeEscalation: false
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: web
+  namespace: phoenix
+spec:
+  selector:
+    app: web
+  ports:
+    - port: 3000
+      targetPort: 3000
